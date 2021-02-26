@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+
+        <title>flex </title>
+
+        <!--flexbox froggy game to improve flex-->
+
+        <style>
+            .con{
+                width: 500px;
+                height: 400px;
+                background-color: blueviolet;
+                border: 2px solid blanchedalmond;
+                display: flex;
+                flex-wrap: wrap;     /*if we have multiple flex block it will be squeshed, so to get it into the next row we use this */ 
+
+                justify-content: center;     /* justify-content: start; it will start from the left top,
+                justify-content: flex-end; it will start from the right top corner */ 
+
+                align-items: center;
+                justify-content: space-evenly;
+
+                /*flex box will automatically calculate the padding and margin */ 
+
+            }
+            .a{
+                height: 100px;
+                width: 100px;
+                margin: 10px;
+                background-color: red;
+        }
+        #b{
+            align-self: center;
+        }
+         .b{
+             height: 30px;
+             width: 30px;
+             background-color:green;
+             border: 1px solid black;
+            
+
+         }
+         #x{
+            display: flex;
+             align-items: center;
+             justify-content: center;
+         }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="con">
+        <div class="a" >1</div>
+        <div class="a" id="x" >
+            <div class=""></div>
+            <div class=""></div>
+
+        </div>
+        <div class="b" >4</div>
+
+
+
+        
+    </div>
+
+
+    </body>
+
+
+
+
+
+
+
+
+</html>

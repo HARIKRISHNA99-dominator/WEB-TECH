@@ -1,0 +1,15 @@
+div{
+    left: 25%;
+    align-self: center;
+    text-align:center;
+    border: 2px solid black;
+    width:50%;
+    position: absolute;
+    top: 50%;
+}
+#c{
+    text-align:center;
+    border: 2px solid black;
+    width: 125px;
+  height: 40px;
+}

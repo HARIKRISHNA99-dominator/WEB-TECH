@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+
+    <style>
+        .con{
+            width: 100%;
+            height: 200vh;
+            background-color: cornflowerblue;
+              
+              }
+              .box{
+                  height: 100px;
+                  width: 100px;
+                  background-color: crimson;
+                  margin: 10px;
+                  text-align: center;
+                  font-size: 30px;
+                  border: 2px solid blue;
+
+              }
+              #b1{
+                  background-color: darkblue;
+              }
+              #b2{
+                  position: sticky; /*change its positions absolute,relative,fixed,stiky*/
+                 /* left: 10px; */     /*when fixed tag is used box height can be changed from .box*/
+                  top: 10px; 
+                  width: 100%;      /* the content what u selected in b2 will stick where ever u go*/
+              }
+              #b3{
+                  visibility: hidden; /*3rd box will be hidden*/
+              }
+
+              
+
+        </style>
+</head>
+<body>
+    <div class="con">
+        <div class="box" id="b1">1</div>
+        <div class="box" id="b2">2</div>
+        <div class="box" id="b3">3</div>
+        <div class="box" id="b4">4</div>
+    
+</body>
+</html>

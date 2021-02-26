@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>media_work</title>
+        <style>
+            .cl{
+                height: 300px;
+                width: 100vw;
+                background-color: crimson;
+                display: none;
+                font-size: 40px;
+                text-align: center;
+            }
+            @media screen and (min-width:0px) and (max-width:480px){
+                #b1{
+                    display: block;
+                    background-color: blueviolet;
+                }
+            }
+            @media screen and (min-width:480px) and (max-width:768px){
+                #b2{
+                    display: block;
+                    background-color: rgb(226, 23, 23);
+                }
+            }
+            @media screen and (min-width:769px) and (max-width:1024px){
+                #b3{
+                    display: block;
+                    background-color: rgb(240, 57, 240);
+                }
+            }
+            @media screen and (min-width:1024px){
+                #b4{
+                    display: block;
+                    background-color: yellow;
+                }
+            }
+        </style>
+     
+    </head>
+    <body>
+        <div class="cl" id="b1">SMART PHONE</div>
+        <div class="cl" id="b2">TAB</div>
+        <div class="cl" id="b3">LAPTOP</div>
+        <div class="cl" id="b4">WIDE SCREEN MONITOR</div>
+    </body>
+</html>

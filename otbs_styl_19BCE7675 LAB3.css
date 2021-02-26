@@ -1,0 +1,48 @@
+.at{
+    color: red;
+    border: 3px solid gray;
+                height: auto;
+                width: 900px;
+                margin: 20px;
+    
+        }
+        #h{
+            text-align: right;
+        }
+        .k{
+            margin: 20px;
+            padding: 5px;
+            border: 3px solid hotpink;
+            height: auto;
+            width: 500px;
+     }
+     #s{
+        margin: 20px;
+            padding: 5px;
+            border: 3px solid hotpink;
+            height: auto;
+            width: 500px;
+     }
+     #t{
+        width: 100%;
+        text-align: center;
+    
+        border: hotpink;
+        table-layout: auto;
+        tab-size: 1cm;
+        
+    }
+    table, th, td {
+        border: 1px solid rgb(243, 13, 212);
+        
+      }
+      th{
+          background-color: grey;
+      }
+    td{
+        background-color: rgb(235, 225, 225);
+     }
+     #l{
+        height: 2px;
+        background-color: rgb(211, 3, 100);
+     }
